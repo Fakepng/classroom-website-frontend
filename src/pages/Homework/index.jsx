@@ -58,7 +58,8 @@ const Homework = () => {
 				striped
 				bordered
 				hover
-				style={{ maxWidth: "60%", margin: "auto", marginTop: "2rem" }}
+				responsive
+				style={{ maxWidth: "80%", margin: "auto", marginTop: "2rem" }}
 			>
 				<thead>
 					<tr>
