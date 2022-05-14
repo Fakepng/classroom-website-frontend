@@ -3,9 +3,11 @@ import Table from "react-bootstrap/Table";
 import axios from "axios";
 import moment from "moment";
 import classnames from "classnames";
+import Spinner from "react-bootstrap/Spinner";
 
 const Homework = () => {
 	const [homework, setHomework] = useState([]);
+	const [loading, setLoading] = useState(true);
 
 	const handleQuery = () => {
 		axios
@@ -16,10 +18,14 @@ const Homework = () => {
 						return moment(b.DateDue).unix() - moment(a.DateDue).unix();
 					})
 				);
+			})
+			.then(() => {
+				setLoading(false);
 			});
 	};
 
 	useEffect(() => {
+		setLoading(true);
 		handleQuery();
 	}, []);
 
@@ -65,6 +71,29 @@ const Homework = () => {
 				</thead>
 				<tbody>{homeworkMap}</tbody>
 			</Table>
+			<>
+				{loading ? (
+					<div
+						style={{
+							maxWidth: "min-content",
+							margin: "auto",
+							marginTop: "2rem",
+						}}
+					>
+						<Spinner
+							animation='border'
+							role='status'
+							style={{
+								padding: "2rem",
+							}}
+						>
+							<span className='visually-hidden'>Loading...</span>
+						</Spinner>
+					</div>
+				) : (
+					<></>
+				)}
+			</>
 		</>
 	);
 };
