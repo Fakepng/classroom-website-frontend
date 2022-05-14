@@ -1,13 +1,21 @@
-import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 
 const Header = () => {
 	return (
-		<Navbar bg='light' expand='lg'>
+		<Navbar bg='light' expand='lg' sticky='top'>
 			<Container>
 				<LinkContainer to='/'>
-					<Navbar.Brand>SP 617</Navbar.Brand>
+					<Navbar.Brand>
+						<img
+							src='/SP512.png'
+							width='30'
+							height='30'
+							className='d-inline-block align-top'
+							alt='SP logo'
+						/>
+						617
+					</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>
