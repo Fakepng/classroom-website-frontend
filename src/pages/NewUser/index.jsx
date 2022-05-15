@@ -37,7 +37,6 @@ const NewUser = () => {
 			.then((response) => {
 				setLoading(false);
 				alert(`Welcome ${response.data.user}`);
-				navigate("/admin/dashboard");
 			});
 	};
 
