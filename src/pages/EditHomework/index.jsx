@@ -49,6 +49,9 @@ const EditHomework = () => {
 						<option value='ศ33102'>ศ33102</option>
 						<option value='ก30900'>ก30900</option>
 						<option value='พ33101'>พ33101</option>
+						<option value='Homeroom'>Homeroom</option>
+						<option value='กิจกรรมภายในโรงเรียน'>กิจกรรมภายในโรงเรียน</option>
+						<option value='Read Topic'>Other</option>
 					</Form.Select>
 				</Col>
 				<Col>
