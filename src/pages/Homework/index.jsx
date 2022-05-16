@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet";
 import Table from "react-bootstrap/Table";
 import axios from "axios";
 import moment from "moment";
@@ -54,6 +55,13 @@ const Homework = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Homework</title>
+				<meta property='og:title' content='Homework' />
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://sp617.fakepng.com' />
+				<meta property='og:image' content='%PUBLIC_URL%/sp517.png' />
+			</Helmet>
 			<Table
 				striped
 				bordered
