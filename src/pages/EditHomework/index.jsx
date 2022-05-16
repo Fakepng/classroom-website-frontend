@@ -30,8 +30,11 @@ const EditHomework = () => {
 				<title>Edit Homework</title>
 				<meta property='og:title' content='Edit Homework' />
 				<meta property='og:type' content='website' />
-				<meta property='og:url' content='https://sp617.fakepng.com' />
-				<meta property='og:image' content='%PUBLIC_URL%/sp517.png' />
+				<meta property='og:url' content='https://sp617.fakepng.com/login' />
+				<meta
+					property='og:image'
+					content='https://sp617.fakepng.com/SP512.png'
+				/>
 			</Helmet>
 			<Form style={{ maxWidth: "80%", margin: "auto" }} onSubmit={handleSubmit}>
 				<Row>

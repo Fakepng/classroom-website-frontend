@@ -45,8 +45,11 @@ const Login = () => {
 				<title>Login</title>
 				<meta property='og:title' content='Login' />
 				<meta property='og:type' content='website' />
-				<meta property='og:url' content='https://sp617.fakepng.com' />
-				<meta property='og:image' content='%PUBLIC_URL%/sp517.png' />
+				<meta property='og:url' content='https://sp617.fakepng.com/login' />
+				<meta
+					property='og:image'
+					content='https://sp617.fakepng.com/SP512.png'
+				/>
 			</Helmet>
 			<form onSubmit={handleSubmit} className='register'>
 				<p className='adminRegisterTitle'>Login</p>

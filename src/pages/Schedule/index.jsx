@@ -9,7 +9,10 @@ const Schedule = () => {
 				<meta property='og:title' content='SP 617' />
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='https://sp617.fakepng.com' />
-				<meta property='og:image' content='%PUBLIC_URL%/sp517.png' />
+				<meta
+					property='og:image'
+					content='https://sp617.fakepng.com/SP512.png'
+				/>
 			</Helmet>
 			<Table
 				striped
