@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { isExpired, decodeToken } from "react-jwt";
 import Protected from "./Protected";
 import Header from "./components/Header";
@@ -43,7 +43,8 @@ function App() {
 						</Protected>
 					}
 				/>
-				<Route path='*' element={<PageNotFound />} />
+				<Route path='/404' element={<PageNotFound />} />
+				<Route path='*' element={<Navigate to={"/404"} />} />
 			</Routes>
 		</BrowserRouter>
 	);
