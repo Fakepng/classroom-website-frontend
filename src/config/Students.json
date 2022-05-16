@@ -1,0 +1,573 @@
+[
+    {
+        "no": "1",
+        "nickname": "Incza",
+        "name": "Punnuchaya Chanchao",
+        "role": "Head of Enviroment",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "daily_inkplussoda",
+                "url": "https://www.instagram.com/daily_inkplussoda/"
+            },
+            {
+                "platform": "FB",
+                "name": "Incza Za",
+                "url": "https://www.facebook.com/incza.zaza"
+            }
+        ]
+    },
+    {
+        "no": "2",
+        "nickname": "Khunpon",
+        "name": "Khunpon Empund",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "kh7np0n",
+                "url": "https://www.instagram.com/kh7np0n/"
+            },
+            {
+                "platform": "FB",
+                "name": "Khunpon Empund",
+                "url": "https://www.facebook.com/khunpon.empund"
+            }
+        ]
+    },
+    {
+        "no": "3",
+        "nickname": "Foto",
+        "name": "Pakorn Suriyakriangkai",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ps_fotograph",
+                "url": "https://www.instagram.com/ps_fotograph/"
+            },
+            {
+                "platform": "FB",
+                "name": "ภากร สุริยะเกรียงไกร",
+                "url": "https://www.facebook.com/profile.php?id=100009255571946"
+            }
+        ]
+    },
+    {
+        "no": "4",
+        "nickname": "Poon",
+        "name": "Ranapee Boonbutra",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "howtotrainyourpoon",
+                "url": "https://www.instagram.com/howtotrainyourpoon/"
+            },
+            {
+                "platform": "FB",
+                "name": "Poonpoon Boonbutra",
+                "url": "https://www.facebook.com/profile.php?id=100009089103805"
+            }
+        ]
+    },
+    {
+        "no": "5",
+        "nickname": "Pan",
+        "name": "Ruktapa Soladda",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ppppppeterpan",
+                "url": "https://www.instagram.com/ppppppeterpan/"
+            },
+            {
+                "platform": "FB",
+                "name": "Ruktapa Soladda",
+                "url": "https://www.facebook.com/ruktapa.soladda"
+            }
+        ]
+    },
+    {
+        "no": "6",
+        "nickname": "Yangyang",
+        "name": "Jirat Vatcharanukul",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "yang.jirat",
+                "url": "https://www.instagram.com/yang.jirat/"
+            },
+            {
+                "platform": "FB",
+                "name": "Yang Yang",
+                "url": "https://www.facebook.com/profile.php?id=100017301348612"
+            }
+        ]
+    },
+    {
+        "no": "7",
+        "nickname": "Pond",
+        "name": "Ratchaphon Sudjaiboon",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ratchaphon_sudjaiboon",
+                "url": "https://www.instagram.com/ratchaphon_sudjaiboon/"
+            },
+            {
+                "platform": "FB",
+                "name": "รัชพนธ์ สุดใจบุญ",
+                "url": "https://www.facebook.com/raf.leo.5"
+            }
+        ]
+    },
+    {
+        "no": "8",
+        "nickname": "Elle",
+        "name": "Khemjira Sriviya",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "elleneenyo",
+                "url": "https://www.instagram.com/elleneenyo/"
+            },
+            {
+                "platform": "FB",
+                "name": "Khemjira Sriviya",
+                "url": "https://www.facebook.com/khxmjyra"
+            }
+        ]
+    },
+    {
+        "no": "9",
+        "nickname": "Ultra",
+        "name": "Nuttee Chinpattanakul",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ultra_kormadeekapp",
+                "url": "https://www.instagram.com/ultra_kormadeekapp/"
+            },
+            {
+                "platform": "FB",
+                "name": "Nutter Chinpattanakul",
+                "url": "https://www.facebook.com/profile.php?id=100009337910268"
+            }
+        ]
+    },
+    {
+        "no": "10",
+        "nickname": "Chiriew",
+        "name": "Sethtatad Kijkanjanarat",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ch1ri3w",
+                "url": "https://www.instagram.com/ch1ri3w/"
+            },
+            {
+                "platform": "FB",
+                "name": "เศรษฐธรรศ กิจกาญจนารัตน์",
+                "url": "https://www.facebook.com/profile.php?id=100026813103034"
+            }
+        ]
+    },
+    {
+        "no": "11",
+        "nickname": "Tang",
+        "name": "Kanyakorn Buanaul",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "_tang_kyk",
+                "url": "https://www.instagram.com/_tang_kyk/"
+            },
+            {
+                "platform": "FB",
+                "name": "Kanyakorn Tang",
+                "url": "https://www.facebook.com/kanyakorn.tang"
+            }
+        ]
+    },
+    {
+        "no": "12",
+        "nickname": "Ging",
+        "name": "Kingkanok Namvijit",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "kkingkanok_",
+                "url": "https://www.instagram.com/kkingkanok_/"
+            },
+            {
+                "platform": "FB",
+                "name": "Kingkanok Namvijit",
+                "url": "https://www.facebook.com/kkingkanok"
+            }
+        ]
+    },
+    {
+        "no": "13",
+        "nickname": "Win",
+        "name": "Nawin Suwannol",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": []
+    },
+    {
+        "no": "14",
+        "nickname": "Pol",
+        "name": "Polakrit Yawsintu",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "FB",
+                "name": "Polakrit Yawsintu",
+                "url": "https://www.facebook.com/profile.php?id=100015800612018"
+            }
+        ]
+    },
+    {
+        "no": "15",
+        "nickname": "Jang",
+        "name": "Rattapoon Pethputong",
+        "role": "Technical Assistant",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "jangsoodlorz",
+                "url": "https://www.instagram.com/jangsoodlorz/"
+            },
+            {
+                "platform": "YT",
+                "name": "Jang Rattapoom",
+                "url": "https://www.youtube.com/channel/UCw3qbxVSaiC7DL1kvs_oPwA"
+            }
+        ]
+    },
+    {
+        "no": "16",
+        "nickname": "Timmy",
+        "name": "Khunakorn Pattayakorn",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "Khunakorn Pattayakorn",
+                "url": "https://www.facebook.com/profile.php?id=100007425375864"
+            }
+        ]
+    },
+    {
+        "no": "17",
+        "nickname": "Ing",
+        "name": "Chanunchida Kaewmanee",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "com_ing_soon",
+                "url": "https://www.instagram.com/com_ing_soon/"
+            },
+            {
+                "platform": "FB",
+                "name": "Ing Chanunchida",
+                "url": "https://www.facebook.com/ing.chanunchida.9"
+            }
+        ]
+    },
+    {
+        "no": "18",
+        "nickname": "Oak",
+        "name": "Chayut Chartchaisang",
+        "role": "Head Leader",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "oakzboyman",
+                "url": "https://www.instagram.com/oakzboyman/"
+            },
+            {
+                "platform": "FB",
+                "name": "Chayut Chartchaisang",
+                "url": "https://www.facebook.com/chayut.chartchaisang"
+            }
+        ]
+    },
+    {
+        "no": "19",
+        "nickname": "Grace",
+        "name": "Nathakrita Srichaikul",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": []
+    },
+    {
+        "no": "20",
+        "nickname": "Nat",
+        "name": "Natchuta Viriya",
+        "role": "Vice Leader",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "ntcht_v",
+                "url": "https://instagram.com/ntcht_v"
+            },
+            {
+                "platform": "FB",
+                "name": "Natchuta Viriya",
+                "url": "https://www.facebook.com/profile.php?id=100007141786188"
+            }
+        ]
+    },
+    {
+        "no": "21",
+        "nickname": "Prim",
+        "name": "Natnicha Pora",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "primpora_",
+                "url": "https://www.instagram.com/primpora_/"
+            },
+            {
+                "platform": "FB",
+                "name": "Natnicha Pora",
+                "url": "https://www.facebook.com/natnicha.pora"
+            }
+        ]
+    },
+    {
+        "no": "22",
+        "nickname": "Peipei",
+        "name": "Plaifa Tachapahapoon",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "peipei1a",
+                "url": "https://instagram.com/peipei1a"
+            },
+            {
+                "platform": "FB",
+                "name": "Peipei Plaifa",
+                "url": "https://www.facebook.com/peipei.plaifa.5"
+            }
+        ]
+    },
+    {
+        "no": "23",
+        "nickname": "Regend",
+        "name": "Phasin Sae-Ngow",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "FB",
+                "name": "Phasin Sae-Ngow",
+                "url": "https://www.facebook.com/bird.phasin"
+            }
+        ]
+    },
+    {
+        "no": "24",
+        "nickname": "Tai",
+        "name": "Pasu Jinayon",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "phenex_tai",
+                "url": "https://www.instagram.com/phenex_tai/"
+            },
+            {
+                "platform": "FB",
+                "name": "Pasu Jinayon",
+                "url": "https://www.facebook.com/PheNeXTai"
+            }
+        ]
+    },
+    {
+        "no": "25",
+        "nickname": "Q",
+        "name": "Supawich Kavinchiraphach",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "salmonmonsterrrrr",
+                "url": "https://www.instagram.com/salmonmonsterrrrr/"
+            },
+            {
+                "platform": "FB",
+                "name": "Supawich Kavinchiraphach",
+                "url": "https://www.facebook.com/supawich.kavinchiraphach.7"
+            }
+        ]
+    },
+    {
+        "no": "26",
+        "nickname": "Ning",
+        "name": "Nunnapat Vitinuntakit",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "nunnanink_",
+                "url": "https://www.instagram.com/nunnanink_/"
+            },
+            {
+                "platform": "FB",
+                "name": "Nunnapat Vitinuntakit",
+                "url": "https://www.facebook.com/profile.php?id=100011098542315"
+            }
+        ]
+    },
+    {
+        "no": "27",
+        "nickname": "Krit",
+        "name": "Krit Kasemtewin",
+        "role": "Technical Assistant",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "krit_fakepng",
+                "url": "https://www.instagram.com/krit_fakepng/"
+            },
+            {
+                "platform": "FB",
+                "name": "Krit Kasemtewin",
+                "url": "https://www.facebook.com/KritKasemte"
+            }
+        ]
+    },
+    {
+        "no": "28",
+        "nickname": "Pang",
+        "name": "Palida Theppradis",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "pong_pangt",
+                "url": "https://www.instagram.com/pong_pangt/"
+            },
+            {
+                "platform": "FB",
+                "name": "Pang Palida",
+                "url": "https://www.facebook.com/pang.palida.3"
+            }
+        ]
+    },
+    {
+        "no": "29",
+        "nickname": "Nan",
+        "name": "Natthanan Singharajkomron",
+        "role": "Head of Environment",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "nan_n.s",
+                "url": "https://www.instagram.com/nan_n.s/"
+            },
+            {
+                "platform": "FB",
+                "name": "Nan Natthanan",
+                "url": "https://www.facebook.com/natthanan.singharacomron"
+            }
+        ]
+    },
+    {
+        "no": "30",
+        "nickname": "Cop",
+        "name": "Tanva Boonwong",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "cv.tnx",
+                "url": "https://www.instagram.com/cv.tnx/"
+            },
+            {
+                "platform": "FB",
+                "name": "Tanva Boonwong",
+                "url": "https://www.facebook.com/tanva.boonwong"
+            }
+        ]
+    },
+    {
+        "no": "31",
+        "nickname": "Dream",
+        "name": "Woranath Sittichaiyanan",
+        "role": "Head of Academic",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "_drxxmmm_",
+                "url": "https://www.instagram.com/_drxxmmm_/"
+            },
+            {
+                "platform": "FB",
+                "name": "Phakbung Woranath",
+                "url": "https://www.facebook.com/woranath.sittichaiyanan"
+            }
+        ]
+    },
+    {
+        "no": "32",
+        "nickname": "Golf",
+        "name": "Akkharaphat Wiriyathanakitchot",
+        "role": "",
+        "img": "https://picsum.photos/360/360",
+        "social": [
+            {
+                "platform": "IG",
+                "name": "golfos_ak",
+                "url": "https://www.instagram.com/golfos_ak/"
+            },
+            {
+                "platform": "FB",
+                "name": "Akkharaphat Wiriyathanakitchot",
+                "url": "https://www.facebook.com/akkharaphat.wiriyathanakitchot"
+            }
+        ]
+    }
+]
