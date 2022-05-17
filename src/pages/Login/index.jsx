@@ -31,6 +31,7 @@ const Login = () => {
 			})
 			.then((response) => {
 				setLoading(false);
+				if (!response.data.token) return alert("Invalid username or password");
 				localStorage.setItem("user", user);
 				localStorage.setItem("accessToken", response.data.token);
 				alert(`Welcome ${response.data.user}`);
