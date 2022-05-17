@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { isExpired, decodeToken } from "react-jwt";
 import Protected from "./Protected";
+import Undercon from "./Undercon";
 import Header from "./components/Header";
 import AdminHeader from "./components/AdminHeader";
 import EditHomework from "./pages/EditHomework";
@@ -8,6 +9,7 @@ import Homework from "./pages/Homework";
 import Login from "./pages/Login";
 import NewUser from "./pages/NewUser";
 import Schedule from "./pages/Schedule";
+import Students from "./pages/Students";
 import PageNotFound from "./PageNotFound";
 import PageUndercon from "./PageUndercon";
 
@@ -26,7 +28,14 @@ function App() {
 				<Route exact path='/' element={<Schedule />} />
 				<Route path='/homework' element={<Homework />} />
 				<Route path='/login' element={<Login />} />
-				<Route path='/students' element={<PageUndercon />} />
+				<Route
+					path='/students'
+					element={
+						<Undercon isUser={isUser}>
+							<Students />
+						</Undercon>
+					}
+				/>
 				<Route
 					path='/new-user'
 					element={
@@ -43,6 +52,7 @@ function App() {
 						</Protected>
 					}
 				/>
+				<Route path='/under-construction' element={<PageUndercon />} />
 				<Route path='/404' element={<PageNotFound />} />
 				<Route path='*' element={<Navigate to={"/404"} />} />
 			</Routes>
