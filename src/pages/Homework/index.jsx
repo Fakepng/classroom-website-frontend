@@ -31,7 +31,7 @@ const Homework = () => {
 	}, []);
 
 	const homeworkMap = homework.map((hw) => {
-		let homeworkColor = classnames({
+		const homeworkColor = classnames({
 			"alert-danger": moment(hw.DateDue).unix() <= moment().unix(),
 			"alert-warning":
 				moment(hw.DateDue).unix() > moment().unix() &&
