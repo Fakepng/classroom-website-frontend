@@ -16,6 +16,12 @@ const Homework = () => {
 			.then((response) => {
 				setHomework(
 					response.data.sort((a, b) => {
+						if (
+							moment(a.DateDue).unix() >= moment().unix() &&
+							moment(b.DateDue).unix() >= moment().unix()
+						) {
+							return moment(a.DateDue).unix() - moment(b.DateDue).unix();
+						}
 						return moment(b.DateDue).unix() - moment(a.DateDue).unix();
 					})
 				);
