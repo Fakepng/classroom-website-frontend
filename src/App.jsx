@@ -5,10 +5,10 @@ import Undercon from "./Undercon";
 import Header from "./components/Header";
 import AdminHeader from "./components/AdminHeader";
 import EditHomework from "./pages/EditHomework";
+import Home from "./pages/Home";
 import Homework from "./pages/Homework";
 import Login from "./pages/Login";
 import NewUser from "./pages/NewUser";
-import Schedule from "./pages/Schedule";
 import Students from "./pages/Students";
 import PageNotFound from "./PageNotFound";
 import PageUndercon from "./PageUndercon";
@@ -25,7 +25,7 @@ function App() {
 		<BrowserRouter>
 			{isUser ? <AdminHeader /> : <Header />}
 			<Routes>
-				<Route exact path='/' element={<Schedule />} />
+				<Route exact path='/' element={<Home />} />
 				<Route path='/homework' element={<Homework />} />
 				<Route path='/login' element={<Login />} />
 				<Route
