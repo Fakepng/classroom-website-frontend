@@ -5,7 +5,7 @@
         "nickname": "Incza",
         "name": "Punnuchaya Chanchao",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/1.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -25,7 +25,7 @@
         "nickname": "Khunpon",
         "name": "Khunpon Empund",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/2.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -45,7 +45,7 @@
         "nickname": "Foto",
         "name": "Pakorn Suriyakriangkai",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/3.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -65,7 +65,7 @@
         "nickname": "Poon",
         "name": "Ranapee Boonbutra",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/4.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -85,7 +85,7 @@
         "nickname": "Pan",
         "name": "Ruktapa Soladda",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/5.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -105,7 +105,7 @@
         "nickname": "Yangyang",
         "name": "Jirat Vatcharanukul",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/6.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -125,7 +125,7 @@
         "nickname": "Pond",
         "name": "Ratchaphon Sudjaiboon",
         "role": "Vice Leader",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/7.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -145,7 +145,7 @@
         "nickname": "Elle",
         "name": "Khemjira Sriviya",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/8.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -165,7 +165,7 @@
         "nickname": "Ultra",
         "name": "Nuttee Chinpattanakul",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/9.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -185,7 +185,7 @@
         "nickname": "Chiriew",
         "name": "Sethtatad Kijkanjanarat",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/10.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -205,7 +205,7 @@
         "nickname": "Tang",
         "name": "Kanyakorn Buanaul",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/11.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -225,7 +225,7 @@
         "nickname": "Ging",
         "name": "Kingkanok Namvijit",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/12.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -245,7 +245,7 @@
         "nickname": "Win",
         "name": "Nawin Suwannol",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/13.jpg",
         "social": []
     },
     {
@@ -254,7 +254,7 @@
         "nickname": "Pol",
         "name": "Polakrit Yawsintu",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/14.jpg",
         "social": [
             {
                 "platform": "FB",
@@ -269,7 +269,7 @@
         "nickname": "Jang",
         "name": "Rattapoon Pethputong",
         "role": "Technical Assistant",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/15.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -289,7 +289,7 @@
         "nickname": "Timmy",
         "name": "Khunakorn Pattayakorn",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/16.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -304,7 +304,7 @@
         "nickname": "Ing",
         "name": "Chanunchida Kaewmanee",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/17.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -324,7 +324,7 @@
         "nickname": "Oak",
         "name": "Chayut Chartchaisang",
         "role": "Head of Environment",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/18.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -344,7 +344,7 @@
         "nickname": "Grace",
         "name": "Nathakrita Srichaikul",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/19.jpg",
         "social": []
     },
     {
@@ -353,7 +353,7 @@
         "nickname": "Nat",
         "name": "Natchuta Viriya",
         "role": "Head Leader",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/20.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -373,7 +373,7 @@
         "nickname": "Prim",
         "name": "Natnicha Pora",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/21.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -393,7 +393,7 @@
         "nickname": "Peipei",
         "name": "Plaifa Tachapahapoon",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/22.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -413,7 +413,7 @@
         "nickname": "Regend",
         "name": "Phasin Sae-Ngow",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/23.jpg",
         "social": [
             {
                 "platform": "FB",
@@ -428,7 +428,7 @@
         "nickname": "Tai",
         "name": "Pasu Jinayon",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/24.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -448,7 +448,7 @@
         "nickname": "Q",
         "name": "Supawich Kavinchiraphach",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/25.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -468,7 +468,7 @@
         "nickname": "Ning",
         "name": "Nunnapat Vitinuntakit",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/26.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -488,7 +488,7 @@
         "nickname": "Krit",
         "name": "Krit Kasemtewin",
         "role": "Technical Assistant",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/27.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -513,7 +513,7 @@
         "nickname": "Pang",
         "name": "Palida Theppradis",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/28.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -533,7 +533,7 @@
         "nickname": "Nan",
         "name": "Natthanan Singharajkomron",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/29.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -553,7 +553,7 @@
         "nickname": "Cop",
         "name": "Tanva Boonwong",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/30.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -573,7 +573,7 @@
         "nickname": "Dream",
         "name": "Woranath Sittichaiyanan",
         "role": "Head of Academic",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/31.jpg",
         "social": [
             {
                 "platform": "IG",
@@ -593,7 +593,7 @@
         "nickname": "Golf",
         "name": "Akkharaphat Wiriyathanakitchot",
         "role": "",
-        "img": "https://picsum.photos/360/360",
+        "img": "images/students/32.jpg",
         "social": [
             {
                 "platform": "IG",
