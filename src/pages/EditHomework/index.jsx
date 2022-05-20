@@ -12,9 +12,12 @@ import axios from "axios";
 const EditHomework = () => {
 	const [homework, setHomework] = useState({});
 	const [editHomework, setEditHomework] = useState([]);
+	const [editingHomework, setEditingHomework] = useState({});
 	const [loading, setLoading] = useState(true);
-	const [show, setShow] = useState(false);
-	const [modal, setModal] = useState({});
+	const [showDelete, setShowDelete] = useState(false);
+	const [deleteModal, setDeleteModal] = useState({});
+	const [showEdit, setShowEdit] = useState(false);
+	const [editModal, setEditModal] = useState({});
 
 	const handleChange = (event) => {
 		const name = event.target.name;
@@ -28,6 +31,28 @@ const EditHomework = () => {
 		event.preventDefault();
 		axios
 			.post(`${process.env.REACT_APP_API_LINK}/homework/add`, homework)
+			.then((response) => {
+				alert(response.data.message);
+			})
+			.then(() => {
+				handleQuery();
+			});
+	};
+
+	const handleEditChange = (event) => {
+		setEditingHomework(editHomework[editModal.index]);
+		const name = event.target.name;
+		const value = event.target.value;
+		setEditingHomework((values) => ({ ...values, [name]: value }));
+		const _id = editModal._id;
+		setEditingHomework((values) => ({ ...values, _id }));
+		const token = localStorage.getItem("accessToken");
+		setEditingHomework((values) => ({ ...values, accessToken: token }));
+	};
+
+	const handleEditSubmit = (event) => {
+		axios
+			.post(`${process.env.REACT_APP_API_LINK}/homework/edit`, editingHomework)
 			.then((response) => {
 				alert(response.data.message);
 			})
@@ -62,17 +87,24 @@ const EditHomework = () => {
 		handleQuery();
 	}, []);
 
-	const handleOpen = () => setShow(true);
-	const handleClose = () => setShow(false);
+	const handleDeleteOpen = () => setShowDelete(true);
+	const handleDeleteClose = () => setShowDelete(false);
+	const handleEditOpen = () => setShowEdit(true);
+	const handleEditClose = () => setShowEdit(false);
+
+	const handleEditing = (_id, index) => {
+		handleEditOpen();
+		setEditModal({ _id, index });
+	};
 
 	const handleDeleteModal = (_id, index) => {
-		handleOpen();
-		setModal({ _id, index });
+		handleDeleteOpen();
+		setDeleteModal({ _id, index });
 	};
 
 	const handleDelete = () => {
 		const deleteHomework = {
-			_id: modal._id,
+			_id: deleteModal._id,
 			accessToken: localStorage.getItem("accessToken"),
 		};
 		axios
@@ -107,7 +139,11 @@ const EditHomework = () => {
 				<td>{moment(hw.DateDue).format("DD/MM/YYYY, HH:mm")}</td>
 				<td>
 					<div className='d-grid gap-2'>
-						<Button variant='warning' size='sm' disable='true'>
+						<Button
+							variant='warning'
+							size='sm'
+							onClick={() => handleEditing(hw._id, index)}
+						>
 							Edit
 						</Button>
 						<Button
@@ -135,26 +171,136 @@ const EditHomework = () => {
 					content='https://sp617.fakepng.com/SP512.png'
 				/>
 			</Helmet>
-			{show ? (
-				<Modal show={show} onHide={handleClose}>
+			{showDelete ? (
+				<Modal show={showDelete} onHide={handleDeleteClose}>
 					<Modal.Header closeButton>
 						<Modal.Title>Are you sure you want to Delete?</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
-						{editHomework[modal.index].Subject} |{" "}
-						{editHomework[modal.index].Topic}
+						{editHomework[deleteModal.index].Subject} |{" "}
+						{editHomework[deleteModal.index].Topic}
 					</Modal.Body>
 					<Modal.Footer>
 						<Button
 							variant='danger'
 							onClick={() => {
-								handleClose();
+								handleDeleteClose();
 								handleDelete();
 							}}
 						>
 							Delete
 						</Button>
-						<Button variant='secondary' autoFocus onClick={handleClose}>
+						<Button variant='secondary' autoFocus onClick={handleDeleteClose}>
+							Close
+						</Button>
+					</Modal.Footer>
+				</Modal>
+			) : null}
+
+			{showEdit ? (
+				<Modal show={showEdit} onHide={handleEditClose}>
+					<Modal.Header closeButton>
+						<Modal.Title>Edit</Modal.Title>
+					</Modal.Header>
+					<Modal.Body>
+						{editHomework[editModal.index].Subject} |{" "}
+						{editHomework[editModal.index].Topic}
+					</Modal.Body>
+					<Form
+						style={{ maxWidth: "80%", margin: "auto" }}
+						onSubmit={handleEditSubmit}
+					>
+						<Row>
+							<Col>
+								<Form.Label>Subject</Form.Label>
+								<Form.Select
+									aria-label='Default select example'
+									name='Subject'
+									onChange={handleEditChange}
+									defaultValue={editHomework[editModal.index].Subject}
+								>
+									<option>Open this select menu</option>
+									<option value='ว33191, ว33291'>ว33191, ว33291</option>
+									<option value='ว33225'>ว33225</option>
+									<option value='ว33244'>ว33244</option>
+									<option value='ว33205'>ว33205</option>
+									<option value='ค33101'>ค33101</option>
+									<option value='ค33201'>ค33201</option>
+									<option value='อ33211'>อ33211</option>
+									<option value='อ33201'>อ33201</option>
+									<option value='อ33203'>อ33203</option>
+									<option value='ท33101'>ท33101</option>
+									<option value='ท33201'>ท33201</option>
+									<option value='ส33101'>ส33101</option>
+									<option value='ศ33102'>ศ33102</option>
+									<option value='ก30900'>ก30900</option>
+									<option value='พ33101'>พ33101</option>
+									<option value='Homeroom'>Homeroom</option>
+									<option value='กิจกรรมภายในโรงเรียน'>
+										กิจกรรมภายในโรงเรียน
+									</option>
+									<option value='Read Topic'>Other</option>
+								</Form.Select>
+							</Col>
+							<Col>
+								<Form.Group className='mb-3' controlId='formTopic'>
+									<Form.Label>Topic</Form.Label>
+									<Form.Control
+										type='text'
+										placeholder='Topic'
+										name='Topic'
+										onChange={handleEditChange}
+										defaultValue={editHomework[editModal.index].Topic}
+									/>
+								</Form.Group>
+							</Col>
+						</Row>
+						<Row>
+							<Col>
+								<Form.Group className='mb-3' controlId='formDateGiven'>
+									<Form.Label>Date Given</Form.Label>
+									<Form.Control
+										type='datetime-local'
+										name='DateGiven'
+										onChange={handleEditChange}
+									/>
+								</Form.Group>
+							</Col>
+							<Col>
+								<Form.Group className='mb-3' controlId='formDateDue'>
+									<Form.Label>Date Due</Form.Label>
+									<Form.Control
+										type='datetime-local'
+										name='DateDue'
+										onChange={handleEditChange}
+									/>
+								</Form.Group>
+							</Col>
+						</Row>
+
+						<Form.Group className='mb-3' controlId='formDescription'>
+							<Form.Label>Description</Form.Label>
+							<Form.Control
+								as='textarea'
+								rows={3}
+								name='Description'
+								onChange={handleEditChange}
+								defaultValue={editHomework[editModal.index].Description}
+							/>
+						</Form.Group>
+
+						<Button
+							variant='primary'
+							onClick={() => {
+								handleEditClose();
+								handleEditSubmit();
+							}}
+						>
+							Submit
+						</Button>
+					</Form>
+					<Modal.Footer>
+						<Button variant='secondary' autoFocus onClick={handleEditClose}>
 							Close
 						</Button>
 					</Modal.Footer>
