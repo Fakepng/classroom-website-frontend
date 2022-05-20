@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import classnames from "classnames";
 import StudentsJSON from "../../config/Students.json";
+import "./Students.css";
 
 const Students = () => {
 	const students = StudentsJSON.map((student) => {
@@ -17,7 +18,11 @@ const Students = () => {
 			return (
 				<Button
 					variant='outline-light'
-					style={{ background: socialColor, borderRadius: "20px" }}
+					style={{
+						background: socialColor,
+						borderRadius: "20px",
+						maxWidth: "4rem",
+					}}
 					href={social.url}
 					key={social.platform}
 				>
@@ -30,10 +35,19 @@ const Students = () => {
 			<Card
 				style={{ width: "18rem", margin: "auto", height: "28rem" }}
 				key={student.id}
+				className='cards'
 			>
 				<Card.Img variant='top' src={student.img} key={student.no} />
 				<Card.Body>
-					<Card.Title>{student.nickname}</Card.Title>
+					<Card.Title
+						style={{
+							width: "100%",
+							textAlign: "left",
+						}}
+					>
+						{student.nickname}
+						<span style={{ float: "right" }}>{student.no}</span>
+					</Card.Title>
 					{student.role ? (
 						<Card.Subtitle className='mb-2 text-muted'>
 							{student.role}
@@ -41,7 +55,12 @@ const Students = () => {
 					) : null}
 					<Card.Text>{student.name}</Card.Text>
 				</Card.Body>
-				<ButtonGroup aria-label='Basic example'>{socials}</ButtonGroup>
+				<ButtonGroup
+					aria-label='Basic example'
+					style={{ justifyContent: "space-evenly" }}
+				>
+					{socials}
+				</ButtonGroup>
 			</Card>
 		);
 	});
