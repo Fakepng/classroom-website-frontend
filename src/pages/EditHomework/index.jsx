@@ -120,14 +120,14 @@ const EditHomework = () => {
 
 	const homeworkMap = editHomework.map((hw, index) => {
 		const homeworkColor = classnames({
-			"alert-danger": moment(hw.DateDue).unix() <= moment().unix(),
-			"alert-warning":
+			"table-danger": moment(hw.DateDue).unix() <= moment().unix(),
+			"table-warning":
 				moment(hw.DateDue).unix() > moment().unix() &&
 				moment(hw.DateDue).unix() <= moment().add(1, "days").unix(),
-			"alert-success":
+			"table-success":
 				moment(hw.DateDue).unix() > moment().add(1, "days").unix() &&
 				moment(hw.DateDue).unix() <= moment().add(7, "days").unix(),
-			"alert-light": moment(hw.DateDue).unix() > moment().add(7, "days").unix(),
+			"table-light": moment(hw.DateDue).unix() > moment().add(7, "days").unix(),
 		});
 
 		return (
