@@ -142,6 +142,7 @@ const EditHomework = () => {
 						<Button
 							variant='warning'
 							size='sm'
+							disable='false'
 							onClick={() => handleEditing(hw._id, index)}
 						>
 							Edit
