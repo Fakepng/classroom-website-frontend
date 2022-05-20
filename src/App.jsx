@@ -28,14 +28,7 @@ function App() {
 				<Route exact path='/' element={<Home />} />
 				<Route path='/homework' element={<Homework />} />
 				<Route path='/login' element={<Login />} />
-				<Route
-					path='/students'
-					element={
-						<Undercon isUser={isUser}>
-							<Students />
-						</Undercon>
-					}
-				/>
+				<Route path='/students' element={<Students />} />
 				<Route
 					path='/new-user'
 					element={
