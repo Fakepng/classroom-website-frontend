@@ -27,7 +27,10 @@ const Students = () => {
 		});
 
 		return (
-			<Card style={{ width: "18rem", margin: "auto", height: "28rem" }}>
+			<Card
+				style={{ width: "18rem", margin: "auto", height: "28rem" }}
+				key={student.id}
+			>
 				<Card.Img variant='top' src={student.img} key={student.no} />
 				<Card.Body>
 					<Card.Title>{student.nickname}</Card.Title>
