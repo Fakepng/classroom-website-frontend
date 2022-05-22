@@ -6,6 +6,7 @@
         "name": "Punnuchaya Chanchao",
         "role": "",
         "img": "images/students/1.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -26,6 +27,7 @@
         "name": "Khunpon Empund",
         "role": "",
         "img": "images/students/2.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -46,6 +48,7 @@
         "name": "Pakorn Suriyakriangkai",
         "role": "",
         "img": "images/students/3.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -66,6 +69,7 @@
         "name": "Ranapee Boonbutra",
         "role": "",
         "img": "images/students/4.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -86,6 +90,7 @@
         "name": "Ruktapa Soladda",
         "role": "",
         "img": "images/students/5.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -106,6 +111,7 @@
         "name": "Jirat Vatcharanukul",
         "role": "",
         "img": "images/students/6.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -126,6 +132,7 @@
         "name": "Ratchaphon Sudjaiboon",
         "role": "Vice Leader",
         "img": "images/students/7.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -146,6 +153,7 @@
         "name": "Khemjira Sriviya",
         "role": "",
         "img": "images/students/8.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -166,6 +174,7 @@
         "name": "Nuttee Chinpattanakul",
         "role": "",
         "img": "images/students/9.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -186,6 +195,7 @@
         "name": "Sethtatad Kijkanjanarat",
         "role": "",
         "img": "images/students/10.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -206,6 +216,7 @@
         "name": "Kanyakorn Buanaul",
         "role": "",
         "img": "images/students/11.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -226,6 +237,7 @@
         "name": "Kingkanok Namvijit",
         "role": "",
         "img": "images/students/12.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -246,6 +258,7 @@
         "name": "Nawin Suwannol",
         "role": "",
         "img": "images/students/13.jpg",
+        "cleaning": "Wednesday",
         "social": []
     },
     {
@@ -255,6 +268,7 @@
         "name": "Polakrit Yawsintu",
         "role": "",
         "img": "images/students/14.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "FB",
@@ -270,6 +284,7 @@
         "name": "Rattapoon Pethputong",
         "role": "Technical Assistant",
         "img": "images/students/15.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "IG",
@@ -288,8 +303,9 @@
         "id": "41687",
         "nickname": "Timmy",
         "name": "Khunakorn Pattayakorn",
-        "role": "",
+        "role": "Head of Finance",
         "img": "images/students/16.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
@@ -303,8 +319,9 @@
         "id": "41688",
         "nickname": "Ing",
         "name": "Chanunchida Kaewmanee",
-        "role": "",
+        "role": "Head of Regulations",
         "img": "images/students/17.jpg",
+        "cleaning": "Friday",
         "social": [
             {
                 "platform": "IG",
@@ -325,6 +342,7 @@
         "name": "Chayut Chartchaisang",
         "role": "Head of Environment",
         "img": "images/students/18.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "IG",
@@ -345,6 +363,7 @@
         "name": "Nathakrita Srichaikul",
         "role": "",
         "img": "images/students/19.jpg",
+        "cleaning": "Friday",
         "social": []
     },
     {
@@ -354,6 +373,7 @@
         "name": "Natchuta Viriya",
         "role": "Head Leader",
         "img": "images/students/20.jpg",
+        "cleaning": "Friday",
         "social": [
             {
                 "platform": "IG",
@@ -374,6 +394,7 @@
         "name": "Natnicha Pora",
         "role": "",
         "img": "images/students/21.jpg",
+        "cleaning": "Friday",
         "social": [
             {
                 "platform": "IG",
@@ -394,6 +415,7 @@
         "name": "Plaifa Tachapahapoon",
         "role": "",
         "img": "images/students/22.jpg",
+        "cleaning": "Friday",
         "social": [
             {
                 "platform": "IG",
@@ -414,6 +436,7 @@
         "name": "Phasin Sae-Ngow",
         "role": "",
         "img": "images/students/23.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "FB",
@@ -429,6 +452,7 @@
         "name": "Pasu Jinayon",
         "role": "",
         "img": "images/students/24.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "IG",
@@ -449,6 +473,7 @@
         "name": "Supawich Kavinchiraphach",
         "role": "",
         "img": "images/students/25.jpg",
+        "cleaning": "Friday",
         "social": [
             {
                 "platform": "IG",
@@ -469,6 +494,7 @@
         "name": "Nunnapat Vitinuntakit",
         "role": "",
         "img": "images/students/26.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -489,6 +515,7 @@
         "name": "Krit Kasemtewin",
         "role": "Technical Assistant",
         "img": "images/students/27.jpg",
+        "cleaning": "Monday",
         "social": [
             {
                 "platform": "IG",
@@ -512,8 +539,9 @@
         "id": "41762",
         "nickname": "Pang",
         "name": "Palida Theppradis",
-        "role": "",
+        "role": "Head of Academic",
         "img": "images/students/28.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -534,6 +562,7 @@
         "name": "Natthanan Singharajkomron",
         "role": "",
         "img": "images/students/29.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -554,6 +583,7 @@
         "name": "Tanva Boonwong",
         "role": "",
         "img": "images/students/30.jpg",
+        "cleaning": "Wednesday",
         "social": [
             {
                 "platform": "IG",
@@ -572,8 +602,9 @@
         "id": "44551",
         "nickname": "Dream",
         "name": "Woranath Sittichaiyanan",
-        "role": "Head of Academic",
+        "role": "Head of Activities",
         "img": "images/students/31.jpg",
+        "cleaning": "Tuesday",
         "social": [
             {
                 "platform": "IG",
@@ -594,6 +625,7 @@
         "name": "Akkharaphat Wiriyathanakitchot",
         "role": "",
         "img": "images/students/32.jpg",
+        "cleaning": "Thursday",
         "social": [
             {
                 "platform": "IG",
