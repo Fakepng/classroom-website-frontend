@@ -43,18 +43,17 @@ const Students = () => {
 				style={{ width: "18rem", margin: "auto", height: "28rem" }}
 				key={student.id}
 				className='cards'
-				onClick={() => handleOpen(index)}
 			>
-				<Card.Img variant='top' src={student.img} key={student.no} />
+				<Card.Img
+					variant='top'
+					src={student.img}
+					key={student.no}
+					onClick={() => handleOpen(index)}
+				/>
 				<Card.Body>
-					<Card.Title
-						style={{
-							width: "100%",
-							textAlign: "left",
-						}}
-					>
+					<Card.Title className='left-div'>
 						{student.nickname}
-						<span style={{ float: "right" }}>{student.no}</span>
+						<span className='right-span'>{student.no}</span>
 					</Card.Title>
 					{student.role ? (
 						<Card.Subtitle className='mb-2 text-muted'>
@@ -90,24 +89,50 @@ const Students = () => {
 			{modal.open ? (
 				<Modal show={modal.open} onHide={handleClose}>
 					<Modal.Header closeButton>
-						<Modal.Title>{StudentsJSON[modal.index].name}</Modal.Title>
+						<Modal.Title>{StudentsJSON[modal.index].nickname}</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
 						<img
 							src={StudentsJSON[modal.index].img}
-							alt={StudentsJSON[modal.index].nickname}
+							alt={StudentsJSON[modal.index].name}
 							style={{ width: "100%" }}
 						/>
 						{/* {StudentsJSON[modal.index].id} */}
 					</Modal.Body>
-					{/* <Modal.Footer>
-						<Button variant='secondary' onClick={handleClose}>
-							Close
-						</Button>
-						<Button variant='primary' onClick={handleClose}>
-							Save Changes
-						</Button>
-					</Modal.Footer> */}
+					<Modal.Footer>
+						<div className='left-div'>
+							Name:
+							<span className='right-span'>
+								{StudentsJSON[modal.index].name}
+							</span>
+						</div>
+						<div className='left-div'>
+							Nickname:
+							<span className='right-span'>
+								{StudentsJSON[modal.index].nickname}
+							</span>
+						</div>
+						<div className='left-div'>
+							Student No:
+							<span className='right-span'>{StudentsJSON[modal.index].no}</span>
+						</div>
+						<div className='left-div'>
+							Student Id:
+							<span className='right-span'>{StudentsJSON[modal.index].id}</span>
+						</div>
+						<div className='left-div'>
+							Role:
+							<span className='right-span'>
+								{StudentsJSON[modal.index].role}
+							</span>
+						</div>
+						<div className='left-div'>
+							Cleaning:
+							<span className='right-span'>
+								{StudentsJSON[modal.index].cleaning}
+							</span>
+						</div>
+					</Modal.Footer>
 				</Modal>
 			) : null}
 		</>
