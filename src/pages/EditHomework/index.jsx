@@ -40,14 +40,12 @@ const EditHomework = () => {
 	};
 
 	const handleEditChange = (event) => {
-		setEditingHomework(editHomework[editModal.index]);
 		const name = event.target.name;
-		const value = event.target.value;
+		let value = event.target.value;
+		if (name === "DateGiven" || name === "DateDue") {
+			value = moment(value).subtract(7, "hours");
+		}
 		setEditingHomework((values) => ({ ...values, [name]: value }));
-		const _id = editModal._id;
-		setEditingHomework((values) => ({ ...values, _id }));
-		const token = localStorage.getItem("accessToken");
-		setEditingHomework((values) => ({ ...values, accessToken: token }));
 	};
 
 	const handleEditSubmit = (event) => {
@@ -95,6 +93,11 @@ const EditHomework = () => {
 	const handleEditing = (_id, index) => {
 		handleEditOpen();
 		setEditModal({ _id, index });
+		setEditingHomework(editHomework[editModal.index]);
+		const id = editModal._id;
+		setEditingHomework((values) => ({ ...values, _id: id }));
+		const token = localStorage.getItem("accessToken");
+		setEditingHomework((values) => ({ ...values, accessToken: token }));
 	};
 
 	const handleDeleteModal = (_id, index) => {
