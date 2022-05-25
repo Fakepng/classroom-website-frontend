@@ -105,7 +105,7 @@ const Homework = () => {
 								padding: "2rem",
 							}}
 						>
-							<span className='visually-hidden'>Loading...</span>
+							<span 	className='visually-hidden'>Loading...</span>
 						</Spinner>
 					</div>
 				) : (
