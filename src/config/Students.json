@@ -6,6 +6,7 @@
         "name": "Punnuchaya Chanchao",
         "role": "",
         "img": "images/students/1.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -27,6 +28,7 @@
         "name": "Khunpon Empund",
         "role": "",
         "img": "images/students/2.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -48,6 +50,7 @@
         "name": "Pakorn Suriyakriangkai",
         "role": "",
         "img": "images/students/3.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -69,6 +72,7 @@
         "name": "Ranapee Boonbutra",
         "role": "",
         "img": "images/students/4.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -90,6 +94,7 @@
         "name": "Ruktapa Soladda",
         "role": "",
         "img": "images/students/5.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -111,6 +116,7 @@
         "name": "Jirat Vatcharanukul",
         "role": "",
         "img": "images/students/6.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -132,6 +138,7 @@
         "name": "Ratchaphon Sudjaiboon",
         "role": "Vice Leader",
         "img": "images/students/7.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -153,6 +160,7 @@
         "name": "Khemjira Sriviya",
         "role": "",
         "img": "images/students/8.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -174,6 +182,7 @@
         "name": "Nuttee Chinpattanakul",
         "role": "",
         "img": "images/students/9.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -195,6 +204,7 @@
         "name": "Sethtatad Kijkanjanarat",
         "role": "",
         "img": "images/students/10.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -216,6 +226,7 @@
         "name": "Kanyakorn Buanaul",
         "role": "",
         "img": "images/students/11.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -237,6 +248,7 @@
         "name": "Kingkanok Namvijit",
         "role": "",
         "img": "images/students/12.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -258,6 +270,7 @@
         "name": "Nawin Suwannol",
         "role": "",
         "img": "images/students/13.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": []
     },
@@ -268,6 +281,7 @@
         "name": "Polakrit Yawsintu",
         "role": "",
         "img": "images/students/14.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -284,6 +298,7 @@
         "name": "Rattapoon Pethputong",
         "role": "Technical Assistant",
         "img": "images/students/15.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -295,6 +310,11 @@
                 "platform": "YT",
                 "name": "Jang Rattapoom",
                 "url": "https://www.youtube.com/channel/UCw3qbxVSaiC7DL1kvs_oPwA"
+            },
+            {
+                "platform": "GH",
+                "name": "Jangsoodlor",
+                "url": "https://github.com/Jangsoodlor"
             }
         ]
     },
@@ -305,6 +325,7 @@
         "name": "Khunakorn Pattayakorn",
         "role": "Head of Finance",
         "img": "images/students/16.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
@@ -321,6 +342,7 @@
         "name": "Chanunchida Kaewmanee",
         "role": "Head of Regulations",
         "img": "images/students/17.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": [
             {
@@ -342,6 +364,7 @@
         "name": "Chayut Chartchaisang",
         "role": "Head of Environment",
         "img": "images/students/18.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -363,6 +386,7 @@
         "name": "Nathakrita Srichaikul",
         "role": "",
         "img": "images/students/19.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": []
     },
@@ -373,6 +397,7 @@
         "name": "Natchuta Viriya",
         "role": "Head Leader",
         "img": "images/students/20.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": [
             {
@@ -394,6 +419,7 @@
         "name": "Natnicha Pora",
         "role": "",
         "img": "images/students/21.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": [
             {
@@ -415,6 +441,7 @@
         "name": "Plaifa Tachapahapoon",
         "role": "",
         "img": "images/students/22.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": [
             {
@@ -436,6 +463,7 @@
         "name": "Phasin Sae-Ngow",
         "role": "",
         "img": "images/students/23.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -452,6 +480,7 @@
         "name": "Pasu Jinayon",
         "role": "",
         "img": "images/students/24.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -473,6 +502,7 @@
         "name": "Supawich Kavinchiraphach",
         "role": "",
         "img": "images/students/25.jpg",
+        "birthday": "",
         "cleaning": "Friday",
         "social": [
             {
@@ -494,6 +524,7 @@
         "name": "Nunnapat Vitinuntakit",
         "role": "",
         "img": "images/students/26.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -515,6 +546,7 @@
         "name": "Krit Kasemtewin",
         "role": "Head of ICT",
         "img": "images/students/27.jpg",
+        "birthday": "",
         "cleaning": "Monday",
         "social": [
             {
@@ -531,6 +563,11 @@
                 "platform": "YT",
                 "name": "Krit Kasemtewin",
                 "url": "https://www.youtube.com/channel/UCzyQQ_6vxw02MgdxBGcoKhQ"
+            },
+            {
+                "platform": "GH",
+                "name": "Fakepng",
+                "url": "https://github.com/Fakepng"
             }
         ]
     },
@@ -541,6 +578,7 @@
         "name": "Palida Theppradis",
         "role": "Head of Academic Affairs",
         "img": "images/students/28.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -562,6 +600,7 @@
         "name": "Natthanan Singharajkomron",
         "role": "",
         "img": "images/students/29.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -583,6 +622,7 @@
         "name": "Tanva Boonwong",
         "role": "",
         "img": "images/students/30.jpg",
+        "birthday": "",
         "cleaning": "Wednesday",
         "social": [
             {
@@ -604,6 +644,7 @@
         "name": "Woranath Sittichaiyanan",
         "role": "Head of Activities",
         "img": "images/students/31.jpg",
+        "birthday": "",
         "cleaning": "Tuesday",
         "social": [
             {
@@ -625,6 +666,7 @@
         "name": "Akkharaphat Wiriyathanakitchot",
         "role": "",
         "img": "images/students/32.jpg",
+        "birthday": "",
         "cleaning": "Thursday",
         "social": [
             {
