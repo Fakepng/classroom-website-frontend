@@ -10,6 +10,7 @@ import Homework from "./pages/Homework";
 import Login from "./pages/Login";
 import NewUser from "./pages/NewUser";
 import Students from "./pages/Students";
+import Teachers from "./pages/Teachers";
 import PageNotFound from "./PageNotFound";
 import PageUndercon from "./PageUndercon";
 
@@ -29,6 +30,14 @@ function App() {
 				<Route path='/homework' element={<Homework />} />
 				<Route path='/login' element={<Login />} />
 				<Route path='/students' element={<Students />} />
+				<Route
+					path='/teachers'
+					element={
+						<Undercon isUser={isUser}>
+							<Teachers />
+						</Undercon>
+					}
+				/>
 				<Route
 					path='/new-user'
 					element={
