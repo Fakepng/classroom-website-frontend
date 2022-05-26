@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -9,7 +10,6 @@ import "./Students.css";
 
 const Students = () => {
 	const [modal, setModal] = useState({ open: false, index: -1 });
-
 	const handleClose = () => setModal({ open: false, index: -1 });
 	const handleOpen = (index) => setModal({ open: true, index });
 
@@ -20,6 +20,14 @@ const Students = () => {
 				"linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)":
 					social.platform === "IG",
 				"#FF0000": social.platform === "YT",
+				"#171515": social.platform === "GH",
+			});
+
+			const socialIcon = classnames({
+				"/images/svg/FB.svg": social.platform === "FB",
+				"/images/svg/IG.svg": social.platform === "IG",
+				"/images/svg/YT.svg": social.platform === "YT",
+				"/images/svg/GH.svg": social.platform === "GH",
 			});
 
 			return (
@@ -32,8 +40,10 @@ const Students = () => {
 					}}
 					href={social.url}
 					key={social.platform}
+					target='_blank'
+					rel='noopener noreferrer'
 				>
-					{social.platform}
+					<img src={socialIcon} alt={social.platform} width='30' height='30' />
 				</Button>
 			);
 		});
@@ -74,6 +84,16 @@ const Students = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Students</title>
+				<meta property='og:title' content='Students' />
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://sp617.fakepng.com/students' />
+				<meta
+					property='og:image'
+					content='https://sp617.fakepng.com/SP512.png'
+				/>
+			</Helmet>
 			<div
 				style={{
 					display: "grid",
@@ -97,7 +117,6 @@ const Students = () => {
 							alt={StudentsJSON[modal.index].name}
 							style={{ width: "100%" }}
 						/>
-						{/* {StudentsJSON[modal.index].id} */}
 					</Modal.Body>
 					<Modal.Footer>
 						<div className='left-div'>
