@@ -35,6 +35,9 @@ const AdminNavbar = () => {
 						<LinkContainer to='/students'>
 							<Nav.Link>Students</Nav.Link>
 						</LinkContainer>
+						<LinkContainer to='/teachers'>
+							<Nav.Link>Teachers</Nav.Link>
+						</LinkContainer>
 						<LinkContainer to='/edit-homework'>
 							<Nav.Link>Edit Homework</Nav.Link>
 						</LinkContainer>
