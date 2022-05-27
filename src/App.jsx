@@ -30,14 +30,7 @@ function App() {
 				<Route path='/homework' element={<Homework />} />
 				<Route path='/login' element={<Login />} />
 				<Route path='/students' element={<Students />} />
-				<Route
-					path='/teachers'
-					element={
-						<Undercon isUser={isUser}>
-							<Teachers />
-						</Undercon>
-					}
-				/>
+				<Route path='/teachers' element={<Teachers />} />
 				<Route
 					path='/new-user'
 					element={
