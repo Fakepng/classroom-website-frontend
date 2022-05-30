@@ -1,0 +1,113 @@
+SP 617 is built by Krit Kasemtewin (https://github.com/Fakepng/)
+
+/* TEAM */
+--Incza 1
+Punnuchaya Chanchao
+
+--Khunpon 2
+Khunpon Empund
+
+--Foto 3
+Pakorn Suriyakriangkai
+
+--Poon 4
+Ranapee Boonbutra
+
+--Pan 5
+Ruktapa Soladda
+
+--Yangyang 6
+Jirat Vatcharanukul
+
+--Pond 7
+Vice Leader
+Ratchaphon Sudjaiboon
+
+--Elle 8
+Khemjira Sriviya
+
+--Ultra 9
+Nuttee Chinpattanakul
+
+--Chiriew 10
+Sethtatad Kijkanjanarat
+
+--Tang 11
+Kanyakorn Buanaul
+
+--Ging 12
+Kingkanok Namvijit
+
+--Win 13
+Nawin Suwannol
+
+--Pol 14
+Polakrit Yawsintu
+
+--Jang 15
+Technical Assistant
+Rattapoom Pethputong
+
+--Timmy 16
+Head of Finance
+Khunakorn Pattayakorn
+
+--Ing 17
+Head of Regulations
+Chanunchida Kaewmanee
+
+--Oak 18
+Head of Environment
+Chayut Chartchaisang
+
+--Grace 19
+Nathakrita Srichaikul
+
+--Nat 20
+Head Leader
+Natchuta Viriya
+
+--Prim 21
+Natnicha Pora
+
+--Peipei 22
+Plaifa Tachapahapoon
+
+--Regend 23
+Phasin Sae-Ngow
+
+--Tai 24
+Pasu Jinayon
+
+--Q 25
+Supawich Kavinchiraphach
+
+--Ning 26
+Nunnapat Vitinuntakit
+
+--Krit 27
+Head of ICT
+Krit Kasemtewin
+
+--Pang 28
+Head of Academic Affairs
+Palida Theppradis
+
+--Nan 29
+Natthanan Singharajkomron
+
+--Cop 30
+Tanva Boonwong
+
+--Dream 31
+Head of Activities
+Woranath Sittichaiyanan
+
+--Golf 32
+Akkharaphat Wiriyathanakitchot
+
+                            
+/* SITE */                              
+Standards: HTML5, CSS3, JSX.      
+Components: React, Prettier.      
+Software: Visual Studio Code.
