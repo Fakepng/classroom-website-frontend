@@ -93,11 +93,13 @@ const EditHomework = () => {
 	const handleEditing = (_id, index) => {
 		handleEditOpen();
 		setEditModal({ _id, index });
-		setEditingHomework(editHomework[editModal.index]);
-		const id = editModal._id;
-		setEditingHomework((values) => ({ ...values, _id: id }));
+		setEditingHomework((value) => editHomework[index]);
 		const token = localStorage.getItem("accessToken");
-		setEditingHomework((values) => ({ ...values, accessToken: token }));
+		setEditingHomework((values) => ({
+			...values,
+			_id,
+			accessToken: token,
+		}));
 	};
 
 	const handleDeleteModal = (_id, index) => {
