@@ -36,8 +36,8 @@ const Students = () => {
 					style={{
 						background: socialColor,
 						borderRadius: "20px",
-						width: "3rem",
-						height: "3rem"
+						maxWidth: "3rem",
+						maxHeight: "3rem"
 					}}
 					href={social.url}
 					key={social.platform}
