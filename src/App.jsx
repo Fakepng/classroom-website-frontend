@@ -33,11 +33,7 @@ function App() {
 				<Route path='/teachers' element={<Teachers />} />
 				<Route
 					path='/new-user'
-					element={
-						<Protected isUser={isUser}>
-							<NewUser />
-						</Protected>
-					}
+					element={tokenOwner === "krit" ? <NewUser /> : <PageUndercon />}
 				/>
 				<Route
 					path='/edit-homework'
