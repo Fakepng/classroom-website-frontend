@@ -61,7 +61,7 @@ const EditHomework = () => {
 
 	const handleQuery = () => {
 		axios
-			.get(`${process.env.REACT_APP_API_LINK}/homework/get`)
+			.get(`${process.env.REACT_APP_API_LINK}/homework/get-all`)
 			.then((response) => {
 				setEditHomework(
 					response.data.sort((a, b) => {
