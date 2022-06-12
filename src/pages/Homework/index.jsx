@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Table from "react-bootstrap/Table";
+import Button from "react-bootstrap/Button";
 import axios from "axios";
 import moment from "moment";
 import classnames from "classnames";
@@ -10,21 +11,35 @@ const Homework = () => {
 	const [homework, setHomework] = useState([]);
 	const [loading, setLoading] = useState(true);
 
+	const sortHomework = (homework) => {
+		return homework.sort((a, b) => {
+			if (
+				moment(a.DateDue).unix() >= moment().unix() &&
+				moment(b.DateDue).unix() >= moment().unix()
+			) {
+				return moment(a.DateDue).unix() - moment(b.DateDue).unix();
+			}
+			return moment(b.DateDue).unix() - moment(a.DateDue).unix();
+		});
+	};
+
 	const handleQuery = () => {
 		axios
 			.get(`${process.env.REACT_APP_API_LINK}/homework/get`)
 			.then((response) => {
-				setHomework(
-					response.data.sort((a, b) => {
-						if (
-							moment(a.DateDue).unix() >= moment().unix() &&
-							moment(b.DateDue).unix() >= moment().unix()
-						) {
-							return moment(a.DateDue).unix() - moment(b.DateDue).unix();
-						}
-						return moment(b.DateDue).unix() - moment(a.DateDue).unix();
-					})
-				);
+				setHomework(sortHomework(response.data));
+			})
+			.then(() => {
+				setLoading(false);
+			});
+	};
+
+	const handleQueryMore = () => {
+		setLoading(true);
+		axios
+			.get(`${process.env.REACT_APP_API_LINK}/homework/get-all`)
+			.then((response) => {
+				setHomework(sortHomework(response.data));
 			})
 			.then(() => {
 				setLoading(false);
@@ -105,11 +120,21 @@ const Homework = () => {
 								padding: "2rem",
 							}}
 						>
-							<span 	className='visually-hidden'>Loading...</span>
+							<span className='visually-hidden'>Loading...</span>
 						</Spinner>
 					</div>
 				) : (
-					<></>
+					<>
+						<Button
+							style={{ margin: "auto", marginTop: "1rem", display: "block" }}
+							variant='secondary'
+							size='sm'
+							disable='false'
+							onClick={handleQueryMore}
+						>
+							Load More
+						</Button>
+					</>
 				)}
 			</>
 		</>
