@@ -233,6 +233,7 @@ const EditHomework = () => {
 									<option value='ค33101'>ค33101</option>
 									<option value='ค33201'>ค33201</option>
 									<option value='อ33211'>อ33211</option>
+									<option value='อ33101'>อ33101</option>
 									<option value='อ33201'>อ33201</option>
 									<option value='อ33203'>อ33203</option>
 									<option value='ท33101'>ท33101</option>
@@ -331,6 +332,7 @@ const EditHomework = () => {
 							<option value='ค33101'>ค33101</option>
 							<option value='ค33201'>ค33201</option>
 							<option value='อ33211'>อ33211</option>
+							<option value='อ33101'>อ33101</option>
 							<option value='อ33201'>อ33201</option>
 							<option value='อ33203'>อ33203</option>
 							<option value='ท33101'>ท33101</option>
