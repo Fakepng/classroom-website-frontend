@@ -43,7 +43,7 @@ function App() {
 						</Protected>
 					}
 				/>
-				<Route path='/under-construction' element={<PageUndercon />} />
+				<Route path='/under-construction' element={<Undercon />} />
 				<Route path='/404' element={<PageNotFound />} />
 				<Route path='*' element={<Navigate to={"/404"} />} />
 			</Routes>
