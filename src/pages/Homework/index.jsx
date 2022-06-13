@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 import axios from "axios";
 import moment from "moment";
 import classnames from "classnames";
@@ -10,6 +11,7 @@ import Spinner from "react-bootstrap/Spinner";
 const Homework = () => {
 	const [homework, setHomework] = useState([]);
 	const [loading, setLoading] = useState(true);
+	const [useSubjectCode, setUseSubjectCode] = useState(false);
 
 	const sortHomework = (homework) => {
 		return homework.sort((a, b) => {
@@ -46,6 +48,10 @@ const Homework = () => {
 			});
 	};
 
+	const handleSubjectCode = (event) => {
+		setUseSubjectCode(event.target.checked);
+	};
+
 	useEffect(() => {
 		setLoading(true);
 		handleQuery();
@@ -63,9 +69,64 @@ const Homework = () => {
 			"alert-light": moment(hw.DateDue).unix() > moment().add(7, "days").unix(),
 		});
 
+		let homeworkSubject = "";
+
+		switch (hw.Subject) {
+			case "ว33191, ว33291":
+				homeworkSubject = "คอมพิวเตอร์";
+				break;
+			case "ว33225":
+				homeworkSubject = "เคมี";
+				break;
+			case "ว33244":
+				homeworkSubject = "ชีววิทยา";
+				break;
+			case "ว33205":
+				homeworkSubject = "ฟิสิกส์";
+				break;
+			case "ค33101":
+				homeworkSubject = "คณิตศาสตร์";
+				break;
+			case "ค33201":
+				homeworkSubject = "คณิตศาสตร์เพื่มเติม";
+				break;
+			case "อ33211":
+				homeworkSubject = "Grammar";
+				break;
+			case "อ33101":
+				homeworkSubject = "English";
+				break;
+			case "อ33201":
+				homeworkSubject = "Reading and Writing";
+				break;
+			case "อ33203":
+				homeworkSubject = "Listening and Speaking";
+				break;
+			case "ท33101":
+				homeworkSubject = "วรรณคดีและวรรณกรรม";
+				break;
+			case "ท33201":
+				homeworkSubject = "ภาษาไทย";
+				break;
+			case "ส33101":
+				homeworkSubject = "ประวัติศาสตร์";
+				break;
+			case "ศ33102":
+				homeworkSubject = "ดนตรีสากล";
+				break;
+			case "ก30900":
+				homeworkSubject = "แนะแนว";
+				break;
+			case "พ33101":
+				homeworkSubject = "พละศึกษาและสังคมศึกษา";
+				break;
+			default:
+				homeworkSubject = hw.Subject;
+		}
+
 		return (
 			<tr key={hw._id} className={homeworkColor}>
-				<td>{hw.Subject}</td>
+				<td>{useSubjectCode ? hw.Subject : homeworkSubject}</td>
 				<td>{hw.Topic}</td>
 				<td>{hw.Description}</td>
 				<td>{moment(hw.DateGiven).format("DD/MM/YYYY, HH:mm")}</td>
@@ -86,12 +147,19 @@ const Homework = () => {
 					content='https://sp617.fakepng.com/SP512.png'
 				/>
 			</Helmet>
+			<Form.Check
+				type='switch'
+				id='useSubjectCode'
+				label='Use Subject code'
+				onChange={handleSubjectCode}
+				style={{ maxWidth: "80%", margin: "auto", marginTop: "2rem" }}
+			/>
 			<Table
 				striped
 				bordered
 				hover
 				responsive
-				style={{ maxWidth: "80%", margin: "auto", marginTop: "2rem" }}
+				style={{ maxWidth: "80%", margin: "auto" }}
 			>
 				<thead>
 					<tr>
