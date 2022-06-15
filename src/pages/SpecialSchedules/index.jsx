@@ -217,6 +217,23 @@ const SpecialSchedules = () => {
 						</Form.Group>
 					</Col>
 				</Row>
+				<Row>
+					<Col>
+						<Form.Group className='mb-3' controlId='formTime10'>
+							<Form.Control type='text' name='time10' onChange={handleChange} />
+						</Form.Group>
+					</Col>
+					<Col>
+						<Form.Group className='mb-3' controlId='formClass10'>
+							<Form.Control
+								type='text'
+								name='class10'
+								placeholder='10'
+								onChange={handleChange}
+							/>
+						</Form.Group>
+					</Col>
+				</Row>
 
 				<Button variant='primary' type='submit'>
 					Submit

@@ -91,6 +91,10 @@ const Home = () => {
 									<td>{specialSchedule[0].Time9}</td>
 									<td>{specialSchedule[0].Class9}</td>
 								</tr>
+								<tr>
+									<td>{specialSchedule[0].Time10}</td>
+									<td>{specialSchedule[0].Class10}</td>
+								</tr>
 							</tbody>
 						</Table>
 					</Modal.Body>
