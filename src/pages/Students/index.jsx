@@ -37,7 +37,7 @@ const Students = () => {
 						background: socialColor,
 						borderRadius: "20px",
 						maxWidth: "60px",
-						maxHeight: "60px"
+						maxHeight: "60px",
 					}}
 					href={social.url}
 					key={social.platform}
@@ -57,6 +57,7 @@ const Students = () => {
 			>
 				<Card.Img
 					variant='top'
+					loading='lazy'
 					src={student.img}
 					key={student.no}
 					onClick={() => handleOpen(index)}
