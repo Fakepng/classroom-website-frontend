@@ -41,6 +41,9 @@ const AdminNavbar = () => {
 						<LinkContainer to='/edit-homework'>
 							<Nav.Link>Edit Homework</Nav.Link>
 						</LinkContainer>
+						<LinkContainer to='/special-schedules'>
+							<Nav.Link>Special Schedules</Nav.Link>
+						</LinkContainer>
 						<LinkContainer to='/new-user'>
 							<Nav.Link>New User</Nav.Link>
 						</LinkContainer>

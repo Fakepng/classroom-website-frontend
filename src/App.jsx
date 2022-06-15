@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Homework from "./pages/Homework";
 import Login from "./pages/Login";
 import NewUser from "./pages/NewUser";
+import SpecialSchedules from "./pages/SpecialSchedules";
 import Students from "./pages/Students";
 import Teachers from "./pages/Teachers";
 import PageNotFound from "./PageNotFound";
@@ -40,6 +41,14 @@ function App() {
 					element={
 						<Protected isUser={isUser}>
 							<EditHomework />
+						</Protected>
+					}
+				/>
+				<Route
+					path='/special-schedules'
+					element={
+						<Protected isUser={isUser}>
+							<SpecialSchedules />
 						</Protected>
 					}
 				/>
