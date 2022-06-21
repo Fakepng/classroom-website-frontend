@@ -118,7 +118,7 @@ const Homework = () => {
 				homeworkSubject = "แนะแนว";
 				break;
 			case "พ33101":
-				homeworkSubject = "พละศึกษาและสังคมศึกษา";
+				homeworkSubject = "พลศึกษาและสุขศึกษา";
 				break;
 			default:
 				homeworkSubject = hw.Subject;
