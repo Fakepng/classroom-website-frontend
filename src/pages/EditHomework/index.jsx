@@ -42,9 +42,9 @@ const EditHomework = () => {
 	const handleEditChange = (event) => {
 		const name = event.target.name;
 		let value = event.target.value;
-		if (name === "DateGiven" || name === "DateDue") {
-			value = moment(value).subtract(7, "hours");
-		}
+		// if (name === "DateGiven" || name === "DateDue") {
+		// 	value = moment(value).subtract(7, "hours");
+		// }
 		setEditingHomework((values) => ({ ...values, [name]: value }));
 	};
 
