@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -12,6 +12,14 @@ const Students = () => {
 	const [modal, setModal] = useState({ open: false, index: -1 });
 	const handleClose = () => setModal({ open: false, index: -1 });
 	const handleOpen = (index) => setModal({ open: true, index });
+
+	useEffect(() => {
+		const number = parseInt(
+			new URLSearchParams(window.location.search).get("no")
+		);
+		if (number < 1 || number > StudentsJSON.length) return;
+		if (!isNaN(number)) return handleOpen(number - 1);
+	}, []);
 
 	const students = StudentsJSON.map((student, index) => {
 		const socials = student.social.map((social) => {
@@ -54,6 +62,7 @@ const Students = () => {
 				style={{ width: "18rem", margin: "auto", height: "28rem" }}
 				key={student.id}
 				className='cards'
+				id={student.no}
 			>
 				<Card.Img
 					variant='top'
