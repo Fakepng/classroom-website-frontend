@@ -1,10 +1,20 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Form from "react-bootstrap/Form";
+import Table from "react-bootstrap/Table";
 import { Button, Row, Col } from "react-bootstrap";
 
 const SpecialSchedules = () => {
 	const [specialSchedules, setSpecialSchedules] = useState([]);
+	const [scheduleTable, setScheduleTable] = useState([]);
+
+	const handleQuery = (event) => {
+		axios
+			.get(`${process.env.REACT_APP_API_LINK}/schedule/get-all`)
+			.then((response) => {
+				setScheduleTable(response.data);
+			});
+	};
 
 	const handleChange = (event) => {
 		const name = event.target.name;
@@ -23,8 +33,16 @@ const SpecialSchedules = () => {
 			)
 			.then((response) => {
 				alert(response.data.message);
+			})
+			.then(() => {
+				handleQuery();
 			});
 	};
+
+	useEffect(() => {
+		handleQuery();
+	}, []);
+
 	return (
 		<>
 			<Form style={{ maxWidth: "80%", margin: "auto" }} onSubmit={handleSubmit}>
@@ -239,6 +257,29 @@ const SpecialSchedules = () => {
 					Submit
 				</Button>
 			</Form>
+			<Table
+				striped
+				bordered
+				hover
+				responsive
+				style={{ maxWidth: "80%", margin: "auto", marginTop: "2rem" }}
+			>
+				<thead>
+					<tr>
+						<th>
+							<Button variant='warning'>Edit</Button>
+						</th>
+						<th>
+							<Button variant='danger'>Delete</Button>
+						</th>
+					</tr>
+					<tr>
+						<th>Time</th>
+						<th>Period</th>
+					</tr>
+				</thead>
+				{/* <tbody>{homeworkMap}</tbody> */}
+			</Table>
 		</>
 	);
 };
