@@ -34,7 +34,7 @@ function App() {
 				<Route path='/teachers' element={<Teachers />} />
 				<Route
 					path='/new-user'
-					element={tokenOwner === "krit" ? <NewUser /> : <PageUndercon />}
+					element={tokenOwner === "krit" ? <NewUser /> : <Undercon />}
 				/>
 				<Route
 					path='/edit-homework'
@@ -52,7 +52,7 @@ function App() {
 						</Protected>
 					}
 				/>
-				<Route path='/under-construction' element={<Undercon />} />
+				<Route path='/under-construction' element={<PageUndercon />} />
 				<Route path='/404' element={<PageNotFound />} />
 				<Route path='*' element={<Navigate to={"/404"} />} />
 			</Routes>
